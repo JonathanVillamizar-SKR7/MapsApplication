@@ -41,7 +41,7 @@ La navegación entre las distintas pantallas de la aplicación se realiza median
 La aplicación sigue el patrón **MVVM**, separando la lógica de negocio de la interfaz de usuario para mejorar la mantenibilidad del proyecto.
 
 ### Estructura general del proyecto
-
+```
 data
 ├─ repository
 └─ network
@@ -52,7 +52,8 @@ domain
 presentation
 ├─ screens
 └─ viewmodel
-###
+```
+
 
 ## Objetivo del proyecto
 
