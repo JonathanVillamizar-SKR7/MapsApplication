@@ -6,11 +6,17 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.example.mapsapplication.ui.navigation.Destination
 
 enum class DrawerItem(
-    val icon: ImageVector,
-    val text: String,
-    val destination: Destination
+    val icon: ImageVector, val text: String, val destination: Destination
 ) {
-    HOME(Icons.Default.Home, "Home", Destination.Home),
-    SETTINGS(Icons.Default.Settings, "Settings", Destination.Settings),
-    ABOUT(Icons.Default.Info, "About", Destination.About),
+    HOME(Icons.Default.Home, "Home", Destination.Home), SETTINGS(
+        Icons.Default.Settings,
+        "Settings",
+        Destination.Settings
+    ),
+    ABOUT(Icons.Default.Info, "About", Destination.About), CAMERA(
+        Icons.Default.CameraAlt,
+        "Camera",
+        Destination.Camera
+    )
+
 }

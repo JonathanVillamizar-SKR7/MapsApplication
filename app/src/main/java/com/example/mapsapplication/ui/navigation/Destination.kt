@@ -10,4 +10,6 @@ sealed class Destination() {
     object Settings: Destination()
     @Serializable
     object About: Destination()
+    @Serializable
+    object Camera: Destination()
 }
